@@ -1,0 +1,211 @@
+
+
+#hero-menu {
+  width: 100%;
+  height: 50vh;
+  background: url("../images/hero/jon-tyson-ZA9PHAnVP5g-unsplash-1.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+#hero-menu:before {
+  content: "";
+  background: rgba(13, 56, 87, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+.menu #menu-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1;
+  color: $text-colour;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  color: $text-colour;
+}
+.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+  color: $Active-colour;
+}
+.menu #menu-flters li:last-child {
+  margin-right: 0;
+}
+.menu .menu-item {
+  margin-top: 50px;
+}
+.menu .menu-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  border: 5px solid rgba(82, 125, 148, 0.5);
+}
+.menu .menu-content {
+  margin-left: 85px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.menu .menu-content::after {
+  content: "__________________________________" "_______________________________________________" "__________________________________________________";
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: $Highlight;
+}
+.menu .menu-content a {
+  padding-right: 10px;
+  background: $Primary;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: $text-colour;
+  transition: 0.3s;
+}
+.menu .menu-content a:hover {
+  color: $Active-colour;
+}
+.menu .menu-content span {
+  background: $Primary;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: $text-colour;
+}
+.menu .menu-ingredients {
+  margin-left: 85px;
+  font-size: 15px;
+  color: rgba(255, 255, 232, 0.7);
+}
+hr{
+  color: $Secondary;
+  border: 1px;
+}
+.menu .desc-menu {
+  text-align: center;
+  font-size: 17px;
+  color: rgba(255, 255, 232, 0.7);
+}
+.menu .btns {
+  margin-top: 30px;
+}
+.menu .btn-menu, .menu .btn-book {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: $text-colour;
+  border: 2px solid $Highlight;
+}
+.menu .btn-menu:hover, .menu .btn-book:hover {
+  background: $Active-colour;
+  color: $text-colour;
+  border: 2px solid $Active-colour;
+}
+.menu .btn-book {
+  margin-left: 15px;
+}
+
+
+/*chef chosen*/
+#specials p strong{
+  color: $Highlight;
+}
+.specials {
+  overflow: hidden;
+}
+.specials .nav-tabs {
+  border: 0;
+}
+.specials .nav-link {
+  border: 0;
+  padding: 12px 15px;
+  transition: 0.3s;
+  color: $text-colour;
+  border-right: 2px solid $Secondary;
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 2px solid $Secondary;
+  text-align: right;
+}
+.specials .nav-link:hover {
+  color: $Active-colour;
+  font-size: 20px;
+}
+.specials .nav-link.active {
+  color: $Primary;
+  background: $Active-colour;
+  border-color: $Active-colour;
+}
+.specials .nav-link:hover {
+  border-color: $Active-colour;
+}
+.specials .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+.specials .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $text-colour;
+}
+.specials .details p {
+  color: rgba(255, 255, 232, 0.7);
+}
+.specials .details p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .specials .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .about-chosen {
+    background-attachment: fixed;
+  }
+}
+.img-chosen{
+  border-radius: 40%;
+  border: 2px solid $Secondary;
+  box-shadow: 0 0 30px 10px $Secondary;
+}
+.about-chosen {
+  background: url("../images/background/IMG_3687.JPG") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.about-chosen:before {
+  content: "";
+  background: rgba(13, 56, 87, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}

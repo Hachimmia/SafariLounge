@@ -1,0 +1,128 @@
+
+
+#main .top-border {
+  margin-top: 100px;
+}
+.hero-contact{
+  background-color: $Secondary;
+}
+.contact img{
+  border-radius: 300px;
+  width:80%;
+}
+
+  .contact .contact-form {
+    width: 100%;
+  }
+  .contact .contact-form .form-group {
+    padding-bottom: 8px;
+  }
+  .contact .contact-form input {
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 14px;
+    background: $Primary;
+    border-color: $Highlight;
+    color: $text-colour;
+  }
+
+  .contact .contact-form input::placeholder, .contact .contact-form textarea::placeholder {
+    color: $Secondary;
+  }
+  .contact .contact-form input:focus, .contact .contact-form textarea:focus {
+    border-color: $Active-colour;
+  }
+  .contact .contact-form input {
+    height: 44px;
+  }
+  .contact .contact-form textarea {
+    padding: 10px 12px;
+  }
+  .contact .contact-form button[type=submit] {
+    background: $Primary;
+    border: 2px solid $Highlight;
+    padding: 10px 35px;
+    color: $text-colour;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .contact-form button[type=submit]:hover {
+    background: $Active-colour;
+    border: 2px solid $Active-colour;
+  }
+
+  /*bottom-line*/
+  .custom-shape-divider-bottom-1652821265 {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1652821265 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1652821265 .shape-fill {
+    fill: #0D3857;
+}
+
+/*top-line*/
+.custom-shape-divider-top-1652821495 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1652821495 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 96px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1652821495 .shape-fill {
+  fill: #0D3857;
+}
+/*social*/
+#social-media .section-contact p {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;;
+  color: $Highlight;
+}
+
+#social-media .img-feed {
+  width: 60%;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 50px;
+}
+@media (max-width: 991px) {
+  #social-media .img-feed
+     {
+      margin: 0px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 400px) {
+    #social-media .img-feed
+       {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+    }

@@ -1,0 +1,51 @@
+/*style.css compiled from SAAS*/
+  #header {
+    background: rgba(13, 56, 87, 0.6);
+    border-bottom: 1px solid rgba(13, 56, 87, 0.6);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    top: 40px;
+  }
+  #header.header-scrolled {
+    top: 0;
+    background: rgba(13, 56, 87, 0.85);
+    border-bottom: 1px solid #37332a;
+  }
+  #header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+  }
+  #header .logo img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-top: -65px;
+  }
+  .custom-shape-divider-bottom-1652807297 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652807297 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1652807297 .shape-fill {
+    fill: #0D3857;
+}  

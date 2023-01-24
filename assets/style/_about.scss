@@ -1,0 +1,46 @@
+
+
+  #about .about-img {
+    position: relative;
+    transition: 0.5s;
+  }
+  #about .about-img img {
+    max-width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px $Secondary;
+  }
+  
+  #about .about-img:hover {
+    transform: scale(1.03);
+  }
+  #about p{
+    padding-top: 20px;
+    text-align: center;
+  }
+  #about p strong{
+    color: $Highlight;
+  }
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  .about-review {
+    background: url("../images/background/IMG_3651.JPG") center center;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+    background-attachment: fixed;
+  }
+  .about-review:before {
+    content: "";
+    background: rgba(13, 56, 87, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+#about .title-about {
+  color:$Highlight;
+}

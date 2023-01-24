@@ -1,0 +1,66 @@
+
+
+#hero-food .section-title-food {
+  text-align: center;
+}
+#hero-food .section-title-food p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: $text-colour;
+}
+#hero-food .section-title-food h1 {
+    font-size: 40px;
+    color: $Highlight;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+#hero-food p strong{
+  color: $Highlight;
+}
+@media (max-width: 991px) {
+  #hero-food .section-title-food p
+     {
+      font-size: 15px;
+    }
+  }
+#hero-food {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/hero/lasse-bergqvist-TYj7ey6xn9M-unsplash.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+#hero-food:before {
+    content: "";
+    background: rgba(13, 56, 87, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #hero-food .container {
+    padding-top: 110px;
+  }
+
+  @media (max-width: 992px) {
+    #hero-food .container {
+      padding-top: 98px;
+    }
+  }
+
+/*Gallery*/
+.gallery .gallery-item {
+    overflow: hidden;
+    margin:15px;
+
+  }
+  .gallery .gallery-item img {
+    transition: all ease-in-out 0.4s;
+  }
+  .gallery .gallery-item:hover img {
+    transform: scale(1.2);
+  }

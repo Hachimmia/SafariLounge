@@ -1,0 +1,207 @@
+
+
+#hero-reservation {
+  width: 100%;
+  height: 50vh;
+  background: url("../images/hero/IMG_3671-2.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+#hero-reservation:before {
+  content: "";
+  background: rgba(13, 56, 87, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+  /*book a table*/
+  .about .btns {
+    margin-top: 30px;
+  }
+  .about .btn-book-table{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: $text-colour;
+    border: 2px solid $Highlight;
+  }
+  .about .btn-book-table:hover{
+    background: $Active-colour;
+    color: $text-colour;
+    border: 2px solid $Active-colour;
+  }
+
+  /*reservation*/
+  #events .btns {
+    text-align: center;
+  }
+  #events .btn-book-table{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: $text-colour;
+    border: 2px solid $Highlight;
+  }
+  #events .btn-book-table:hover{
+    background: $Active-colour;
+    color: $text-colour;
+    border: 2px solid $Active-colour;
+  }
+
+  #about .about-img-reservation {
+    position: relative;
+    transition: 0.5s;
+  }
+  #about .about-img-reservation img {
+    max-width: 100%;
+    border: 1px solid $Secondary;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px $Secondary;
+    
+  }
+
+  #about .about-img-reservation img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 5px 5px $Highlight;
+    border: 1px solid $Highlight;
+  }
+
+  #about .title-about {
+    color:$Highlight;
+  }
+
+.events {
+  background: url(../images/background/IMG_3634.JPG) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    /*transform: skewY(-3deg);*/
+  }
+  .events::before {
+    content: "";
+    background: rgba(13, 56, 87, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .events .container {
+    position: relative;
+  }
+  .events .events-carousel {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+  }
+  .events .event-item {
+    color: $text-colour;
+    text-align: center;
+  }
+  .events .event-item p:last-child {
+    margin-bottom: 0;
+  }
+  .events .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+  }
+  .events .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+  .events .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: $Active-colour;
+  }
+  #events .img-event {
+
+    border-radius: 15px;
+    box-shadow: 0 20px 50px -10px $Secondary;
+  }
+  #events h3{
+    color: $Highlight;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+  }
+.content1 {
+ max-width: 50em;
+   margin: 0 auto;
+   position: relative;
+}
+/*collection - table service*/
+.Services .box  {
+  padding: 50px 30px;
+  box-shadow: 0 0 5px 5px $Secondary;
+  transition: all ease-in-out 0.3s;
+  transition-duration: 0.3s !important;
+  background: url(../images/body/agenlaku-indonesia-SRFOOdORhKw-unsplash.jpg)center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Services .box::before {
+  content: "";
+  background-color: rgba(82, 125, 148, 0.0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.Services .box:hover::before {
+  background-color: rgba(82, 125, 148, 0.5);
+  transition: background-color 0.3s linear;
+}
+
+#why-us h3{
+  color: $Highlight;
+  font-family: "Playfair Display", serif;
+  font-size: 40px ;
+  font-weight: 600;
+}
+.Services .box p {
+  color: $Primary;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500 !important;
+}
+.Services .box:hover {
+  padding: 30px 30px 70px 30px;
+  box-shadow: 0 0 10px 10px $Highlight;
+  transform: scale(1.05);
+}
+
+.Services .box:hover p {
+  color: $text-colour;
+  transition: color 0.3s;
+}
+
+.Services .background2 {
+  background: url(../images/body/joanna-kosinska-BteMcldTQVo-unsplash.jpg);
+  background-size: cover;
+}
+.Services .background3 {
+  background: url(../images/body/avinash-kumar-BaP_K79BiPM-unsplash.jpg);
+  background-size: cover;
+}

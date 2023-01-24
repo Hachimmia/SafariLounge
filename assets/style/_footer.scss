@@ -1,0 +1,148 @@
+@import "./variables";
+
+#footer {
+    background: $Primary;
+    padding: 0 0 30px 0;
+    color: $text-colour;
+    font-size: 14px;
+  }
+  #footer .top-footer {
+    background: $Primary;
+    border-top: 1px solid $Secondary;
+    border-bottom: 1px solid $Secondary;
+    padding: 60px 0 30px 0;
+  }
+  #footer .top-footer .footer-info {
+    margin-bottom: 30px;
+  }
+  #footer .top-footer .footer-info p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    color: $text-colour;
+  }
+  #footer .top-footer .social-links a {
+    font-size: 20px;
+    display: inline-block;
+    background: $Highlight;
+    color: $text-colour;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  #footer .top-footer .social-links a:hover {
+    background: $Active-colour;
+    color: $text-colour;
+    text-decoration: none;
+  }
+  #footer .top-footer h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $Highlight;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  #footer .top-footer .footer-opening {
+    margin-bottom: 30px;
+  }
+  #footer .top-footer .footer-opening ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .top-footer .footer-opening ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  #footer .top-footer .footer-links {
+    margin-bottom: 30px;
+  }
+  #footer .top-footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #footer .top-footer .footer-links ul i {
+    padding-right: 2px;
+    color: $Highlight;
+    font-size: 25px;
+    line-height: 1;
+  }
+  #footer .top-footer .footer-links ul i:hover {
+    color: $Active-colour;
+  }
+  #footer .top-footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  #footer .top-footer .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  #footer .top-footer .footer-links ul a {
+    color: $text-colour;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  #footer .top-footer .footer-links ul a:hover {
+    color: $Active-colour;
+  }
+  #footer .top-footer .newsletter form {
+    margin-top: 30px;
+    background: $Secondary;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid $Secondary;
+  }
+  #footer .top-footer .newsletter form input[type=email] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+    background: $Secondary;
+    color: $text-colour;
+  }
+  #footer .top-footer .newsletter form input::placeholder {
+    color:$Primary;
+  }
+  #footer .top-footer .newsletter form input[type=submit] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: $Highlight;
+    color: $text-colour;
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+  #footer .top-footer .newsletter form input[type=submit]:hover {
+    background: $Active-colour;
+  }
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: $Secondary;
+  }
+  .info i {
+    font-size: 20px;
+    float: left;
+    background: $Highlight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+  }
